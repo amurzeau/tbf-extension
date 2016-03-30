@@ -14,6 +14,12 @@
 		"48": "icons/icon48.png",
 		"128": "icons/icon128.png"
 	},
+	"applications": {
+		"gecko": {
+			"id": "@tbf-extension",
+			"strict_min_version": "46.0.0"
+		}
+	},
 	"manifest_version": 2,
 	"name": "Twitch Buffering Fix",
 	"permissions": ["contextMenus", "webRequest", "webRequestBlocking", "http://*.hls.ttvnw.net/*", "http://*.hls.twitch.tv/*"],
